@@ -2,4 +2,4 @@
 
 production_number=$1
 
-mogrify -quality 100 -resize 1600 ./src/img/sample/$production_number/*
+mogrify -quality 100 -resize 1600 ./docs/img/sample/$production_number/*
